@@ -28,7 +28,7 @@ def main():
         st.subheader("Reviews with positive review text but negative rating:")
         st.dataframe(df_info)
 
-#performing Authentication using hardcoded pass
+#performing Authentication using hardcoded password
 
 password=st.text_input("Password:", value="", type="password") 
 if password!='data' and password!='':
